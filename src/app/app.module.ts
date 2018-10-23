@@ -7,6 +7,7 @@ import {NavbarComponent} from './navbar/navbar.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {faPencilAlt, faUser} from '@fortawesome/free-solid-svg-icons';
+import { BlogPostComponent } from './blog-post/blog-post.component';
 
 library.add(faPencilAlt);
 library.add(faUser);
@@ -15,6 +16,7 @@ library.add(faUser);
     declarations: [
         AppComponent,
         NavbarComponent,
+        BlogPostComponent,
     ],
     imports: [
         BrowserModule,
