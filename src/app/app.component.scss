@@ -1,5 +1,5 @@
-@import "../sizes";
-@import "../colors";
+@import "../styles/sizes";
+@import "../styles/colors";
 
 #appContent {
     padding: ($navHeight + $navPadding + $navBorder + 20px) 25px;
