@@ -6,9 +6,10 @@ import {AppComponent} from './app.component';
 import {NavbarComponent} from './navbar/navbar.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {library} from '@fortawesome/fontawesome-svg-core';
-import {faPencilAlt} from '@fortawesome/free-solid-svg-icons';
+import {faPencilAlt, faUser} from '@fortawesome/free-solid-svg-icons';
 
 library.add(faPencilAlt);
+library.add(faUser);
 
 @NgModule({
     declarations: [

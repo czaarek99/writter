@@ -2,13 +2,21 @@
 
 nav {
   display: grid;
-  grid-template-columns: 50px auto;
+  grid-template-columns: 50px auto 50px;
   padding: 10px;
   background-color: $mainColorLight;
   color: $highlightColor;
   border-bottom: 2px solid $mainColorLightAlt;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
 #mainHeader {
   margin: 0;
+}
+
+#userIcon {
+  color: $mainColorExtraLight;
+  cursor: pointer;
 }
