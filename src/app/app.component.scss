@@ -1,0 +1,8 @@
+@import "../sizes";
+@import "../colors";
+
+#appContent {
+    padding: ($navHeight + $navPadding + $navBorder + 20px) 25px;
+    background-color: $mainColor;
+    color: $highlightColor;
+}

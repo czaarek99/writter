@@ -1,22 +1,25 @@
 @import "../../colors.scss";
+@import "../../sizes.scss";
 
 nav {
-  display: grid;
-  grid-template-columns: 50px auto 50px;
-  padding: 10px;
-  background-color: $mainColorLight;
-  color: $highlightColor;
-  border-bottom: 2px solid $mainColorLightAlt;
-  position: fixed;
-  left: 0;
-  right: 0;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    padding: $navPadding;
+    background-color: $mainColorLight;
+    color: $highlightColor;
+    border-bottom: $navBorder solid $mainColorLightAlt;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: $navHeight;
+    align-items: center;
 }
 
 #mainHeader {
-  margin: 0;
+    margin: 0;
 }
 
 #userIcon {
-  color: $mainColorExtraLight;
-  cursor: pointer;
+    color: $mainColorExtraLight;
+    cursor: pointer;
 }
