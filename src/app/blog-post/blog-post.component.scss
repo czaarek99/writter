@@ -1,0 +1,19 @@
+@import "../../styles/colors";
+
+.blogPost {
+    border: 2px solid $mainColorExtraLight;
+    border-radius: 2px;
+    padding: 15px;
+    margin-bottom: 10px;
+    max-height: 400px;
+    background-color: $mainColorLight;
+    overflow: hidden;
+}
+
+.blogPostTitle {
+    margin: 0;
+}
+
+.blogPostContents {
+    overflow: hidden;
+}
