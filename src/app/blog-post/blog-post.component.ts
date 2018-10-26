@@ -11,6 +11,9 @@ export class BlogPostComponent implements OnInit {
 
     private title = 'Title';
     private contents = tempContents;
+    private posterName = 'Czarek';
+    private blogName = 'bestBlog';
+    private postAge = '3 days';
 
     constructor() {
     }

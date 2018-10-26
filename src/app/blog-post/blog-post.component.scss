@@ -5,15 +5,60 @@
     border-radius: 2px;
     padding: 15px;
     margin-bottom: 10px;
-    max-height: 400px;
     background-color: $mainColorLight;
-    overflow: hidden;
 }
 
 .blogPostTitle {
     margin: 0;
 }
 
+.blogPostContentsWrapper {
+    overflow: hidden;
+    max-height: 400px;
+    position: relative;
+}
+
 .blogPostContents {
     overflow: hidden;
+    font-size: .95em;
+}
+
+.blogPostContentFade {
+    position: absolute;
+    bottom: -2px;
+    height: 70px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(rgba($mainColorLight, .6), $mainColorLight);
+}
+
+.blogPostReadMore {
+    position: absolute;
+    bottom: 10px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: .8em;
+    color: lighten($mainColorLight, 70%);
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.blogPostReadMore:hover {
+    color: $highlightColor;
+    border: 1px solid $highlightColor;
+    border-radius: 2px;
+}
+
+.blogPostMeta {
+    margin-top: 15px;
+    font-size: .8em;
+}
+
+.blogPostMetaIcon {
+    width: 20px;
+    display: inline-block;
 }

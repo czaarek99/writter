@@ -1,4 +1,16 @@
 <article class="blogPost">
     <h4 class="blogPostTitle">{{title}}</h4>
-    <p class="blogPostContents">{{contents}}</p>
+    <div class="blogPostContentsWrapper">
+        <p class="blogPostContents">{{contents}}</p>
+        <div class="blogPostContentFade"></div>
+        <p class="blogPostReadMore">READ MORE</p>
+    </div>
+    <p class="blogPostMeta">
+        <fa-icon icon="user-edit" class="blogPostMetaIcon"></fa-icon>
+        Written by {{posterName}} {{postAge}} ago
+    </p>
+    <p class="blogPostMeta">
+        <fa-icon icon="book" class="blogPostMetaIcon"></fa-icon>
+        Posted to {{blogName}}
+    </p>
 </article>
